@@ -1,0 +1,37 @@
+baseURL               = "https://fuliss.github.io/"
+languageCode          = "zh-CN"
+title                 = "福利色导航"
+theme                 = "webstack"
+preserveTaxonomyNames = true
+disablePathToLower    = true
+hasCJKLanguage        = true
+publishDir            = "public"					# 站点静态文件保存目录
+
+
+[params]
+    expandSidebar = true
+
+# [params.seo]    
+#     baiduhmid       = 'efccc04cb44fc49faddac5876180b369'	# 百度统计 hm.src 的 ID
+#     baiduSiteVer    = 'codeva-cCAOSG8MBO'			# 百度HTML标签验证(baidu-site-verification)
+#     tj51laid        = ''                        		# 51.LA 网站统计
+#     tj51lack        = ''
+#     GoogleAdsClient = ''					# Google AdSense 
+
+[params.qweather]
+    key = "085791e805a24491b43b06cf58ab31e7"
+
+[params.images]
+    favicon           = "assets/images/favicon.png"
+    searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
+    searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
+    logoExpandLight   = "/logo.png"
+    logoExpandDark    = "/logo.png"
+    logoCollapseLight = "/logo.png"
+    logoCollapseDark  = "/logo.png"
+    
+[markup.goldmark.renderer]
+    unsafe = true
+
+[params.footer]
+    copyright = '{year}&copy;福利色<br/>'
